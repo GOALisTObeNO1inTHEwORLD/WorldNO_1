@@ -29,7 +29,7 @@ const TESTS = [
   // Management / Business
   { id: "CAT", label: "CAT", desc: "MBA entrance for IIMs and top B-schools", icon: "📈", active: false },
   { id: "XAT", label: "XAT", desc: "MBA entrance for XLRI and other institutes", icon: "📝", active: false },
-  { id: "GMAT", label: "GMAT", desc: "MBA entrance for international universities", icon: "🌎", active: false },
+  { id: "GMAT", label: "GMAT", desc: "MBA entrance for international universities", icon: "🌎", active: true },
   
   // Law
   { id: "CLAT", label: "CLAT", desc: "Entrance for National Law Universities", icon: "⚖️", active: false },
@@ -41,9 +41,9 @@ const TESTS = [
   { id: "UGC_NET", label: "UGC NET", desc: "Eligibility for Assistant Professor", icon: "🎓", active: false },
   
   // Abroad Studies
-  { id: "GRE", label: "GRE", desc: "MS and higher studies abroad", icon: "✈️", active: false },
-  { id: "IELTS", label: "IELTS", desc: "English proficiency for study/work abroad", icon: "🗣️", active: false },
-  { id: "TOEFL", label: "TOEFL", desc: "English proficiency test for universities", icon: "📝", active: false },
+  { id: "GRE", label: "GRE", desc: "MS and higher studies abroad", icon: "✈️", active: true },
+  { id: "IELTS", label: "IELTS", desc: "English proficiency for study/work abroad", icon: "🗣️", active: true },
+  { id: "TOEFL", label: "TOEFL", desc: "English proficiency test for universities", icon: "📝", active: true },
   
   // Defence
   { id: "NDA", label: "NDA Exam", desc: "Entry into Army, Navy, Air Force after 12th", icon: "⚔️", active: false },

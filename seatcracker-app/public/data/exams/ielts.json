@@ -1,0 +1,400 @@
+{
+  "examId": "ielts",
+  "examTitle": "IELTS Academic Test",
+  "sections": [
+    {
+      "sectionId": "listening",
+      "sectionTitle": "Listening",
+      "questions": [
+        {
+          "id": "ielts-li-1",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: The speaker states that the new library wing will open in which month?",
+          "options": ["April", "June", "September", "December"],
+          "correctAnswer": "September",
+          "explanation": "The audio transcript mentions: 'We had planned for June, but construction delays mean we will welcome students in September.'"
+        },
+        {
+          "id": "ielts-li-2",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: What is the main reason the speaker recommends taking the city bus?",
+          "options": ["It is cheaper.", "It is faster.", "It operates 24 hours.", "It has better scenery."],
+          "correctAnswer": "It is faster.",
+          "explanation": "The speaker notes: 'While taxis are cheaper if you travel in groups, buses utilize the express lanes, which cuts travel time in half during peak hours.'"
+        },
+        {
+          "id": "ielts-li-3",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: The student's primary research focus is on which animal?",
+          "options": ["Dolphins", "Humpback whales", "Sea otters", "Great white sharks"],
+          "correctAnswer": "Humpback whales",
+          "explanation": "The student states: 'I initially wanted to look at sea otters, but my advisor guided me toward humpback whales due to the abundance of local acoustic data.'"
+        },
+        {
+          "id": "ielts-li-4",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: What time will the campus shuttle arrive at the student union?",
+          "options": ["8:15 AM", "8:30 AM", "8:45 AM", "9:00 AM"],
+          "correctAnswer": "8:45 AM",
+          "explanation": "The announcement confirms: 'Due to road maintenance, the 8:30 shuttle will be delayed by fifteen minutes, arriving at quarter to nine.'"
+        },
+        {
+          "id": "ielts-li-5",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: How much is the annual membership fee for students at the sports center?",
+          "options": ["£50", "£75", "£100", "£125"],
+          "correctAnswer": "£75",
+          "explanation": "The receptionist says: 'Standard membership is £120, but students get a significant discount and only pay £75 yearly.'"
+        },
+        {
+          "id": "ielts-li-6",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: Which facility is currently closed for renovation?",
+          "options": ["The cafeteria", "The main gym", "The swimming pool", "The computer lab"],
+          "correctAnswer": "The swimming pool",
+          "explanation": "The host mentions: 'All areas are open as normal except the swimming pool, which is undergoing tiling repair until next Monday.'"
+        },
+        {
+          "id": "ielts-li-7",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: What must students bring to the exam room?",
+          "options": ["A calculator", "Their student ID card", "A dictionary", "A notebook"],
+          "correctAnswer": "Their student ID card",
+          "explanation": "The invigilator states: 'Calculators and books are strictly prohibited. You must display your student identification card on your desk at all times.'"
+        },
+        {
+          "id": "ielts-li-8",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: Where will the biology field trip take place?",
+          "options": ["The botanical gardens", "The rocky shore", "The oak forest", "The local wetlands"],
+          "correctAnswer": "The rocky shore",
+          "explanation": "The professor notes: 'We changed our mind about the forest. Instead, we'll head down to the rocky shore to examine tidal ecosystems.'"
+        },
+        {
+          "id": "ielts-li-9",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: What is the topic of next week's guest lecture?",
+          "options": ["Renewable energy", "Global inflation", "Urban architecture", "Marine biology"],
+          "correctAnswer": "Renewable energy",
+          "explanation": "The schedule states: 'Next Tuesday we welcome Dr. Miller, who will deliver a speech on the future of renewable energy in urban environments.'"
+        },
+        {
+          "id": "ielts-li-10",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: Who is the target audience for the new software?",
+          "options": ["High school teachers", "Graphic designers", "Small business owners", "Medical practitioners"],
+          "correctAnswer": "Small business owners",
+          "explanation": "The developer shares: 'While designers might find it useful, our software is explicitly customized to streamline accounting for small business owners.'"
+        }
+      ]
+    },
+    {
+      "sectionId": "reading",
+      "sectionTitle": "Reading",
+      "questions": [
+        {
+          "id": "ielts-re-1",
+          "type": "multiple_choice",
+          "prompt": "Reading: According to the passage, what triggered the rapid expansion of early farming communities?",
+          "options": [
+            "A sudden cooling of the global climate",
+            "The development of sophisticated irrigation systems",
+            "An increase in rainfall and stabilizing temperatures",
+            "The domestic trade of rare metal tools"
+          ],
+          "correctAnswer": "An increase in rainfall and stabilizing temperatures",
+          "explanation": "Paragraph 2 states: 'The transition to agriculture was highly accelerated by the end of the dry period, as stabilizing temperatures and regular rainfall patterns allowed crops to flourish consistently.'"
+        },
+        {
+          "id": "ielts-re-2",
+          "type": "multiple_choice",
+          "prompt": "Reading: What is the main argument regarding the intelligence of octopuses?",
+          "options": [
+            "Their smartness is highly limited to foraging.",
+            "They display advanced cognitive skills despite lacking a centralized vertebrate brain.",
+            "Their learning abilities are entirely driven by human interaction.",
+            "They are less intelligent than previously assumed."
+          ],
+          "correctAnswer": "They display advanced cognitive skills despite lacking a centralized vertebrate brain.",
+          "explanation": "The text discusses the decentralized nervous system of octopuses and lists behaviors like tool usage and puzzle solving to demonstrate their high cognitive function."
+        },
+        {
+          "id": "ielts-re-3",
+          "type": "multiple_choice",
+          "prompt": "Reading: What does the term 'albedo effect' refer to in the context of polar ice caps?",
+          "options": [
+            "The melting speed of glacial ice",
+            "The reflection of solar radiation back into space",
+            "The absorption of greenhouse gases by seawater",
+            "The formation of deep ocean currents"
+          ],
+          "correctAnswer": "The reflection of solar radiation back into space",
+          "explanation": "The passage defines the albedo effect as the capacity of white ice surfaces to reflect the majority of incoming solar rays back out of the atmosphere."
+        },
+        {
+          "id": "ielts-re-4",
+          "type": "multiple_choice",
+          "prompt": "Reading: According to the text, why did the Maya civilization's classic period come to an end?",
+          "options": [
+            "A sudden foreign invasion",
+            "A prolonged series of devastating droughts",
+            "A global epidemic disease",
+            "The depletion of all local gold mines"
+          ],
+          "correctAnswer": "A prolonged series of devastating droughts",
+          "explanation": "Recent geological evidence discussed in the article confirms a direct correlation between the abandonment of major Maya centers and a century-long megadrought."
+        },
+        {
+          "id": "ielts-re-5",
+          "type": "multiple_choice",
+          "prompt": "Reading: What did the results of the 1920 psychological study suggest about memory retention?",
+          "options": [
+            "Visual cues are significantly more effective than auditory cues.",
+            "Sleep has no impact on short-term memory consolidation.",
+            "Spaced repetition dramatically improves long-term recall compared to cramming.",
+            "Children retain vocabulary faster than adults."
+          ],
+          "correctAnswer": "Spaced repetition dramatically improves long-term recall compared to cramming.",
+          "explanation": "The study's concluding chart demonstrates that subjects using intervals for learning showed 80% higher retention after three weeks than those using single-session study blocks."
+        },
+        {
+          "id": "ielts-re-6",
+          "type": "multiple_choice",
+          "prompt": "Reading: What is the primary function of leaf veins in deciduous plants?",
+          "options": [
+            "To absorb carbon dioxide from the air",
+            "To transport water and nutrients while providing structural support",
+            "To attract beneficial insect pollinators",
+            "To store glucose during the winter months"
+          ],
+          "correctAnswer": "To transport water and nutrients while providing structural support",
+          "explanation": "The text states that the vascular bundle within leaf veins serves the dual purpose of nutrient distribution and maintaining leaf rigidity against wind."
+        },
+        {
+          "id": "ielts-re-7",
+          "type": "multiple_choice",
+          "prompt": "Reading: Why is the deep-sea hydrothermal vent ecosystem unique?",
+          "options": [
+            "It operates entirely without sunlight, relying on chemosynthesis.",
+            "It has the highest density of marine mammal species.",
+            "It is completely unaffected by changes in ocean acidity.",
+            "It consists solely of microscopic bacteria."
+          ],
+          "correctAnswer": "It operates entirely without sunlight, relying on chemosynthesis.",
+          "explanation": "The passage details how life thrives at the vents despite absolute darkness, powered by chemical energy from volcanic minerals rather than solar photosynthesis."
+        },
+        {
+          "id": "ielts-re-8",
+          "type": "multiple_choice",
+          "prompt": "Reading: What was the major outcome of the industrial revolution on urban populations?",
+          "options": [
+            "A widespread migration from urban centers back to agricultural villages",
+            "An unprecedented surge in rural-to-urban migration, leading to rapid city growth",
+            "A universal decrease in the average weekly working hours",
+            "The immediate elimination of child labor in factories"
+          ],
+          "correctAnswer": "An unprecedented surge in rural-to-urban migration, leading to rapid city growth",
+          "explanation": "Section B highlights that the availability of factory jobs triggered massive demographic shifts, swelling metropolitan populations in a single decade."
+        },
+        {
+          "id": "ielts-re-9",
+          "type": "multiple_choice",
+          "prompt": "Reading: What is the main challenge associated with storing hydrogen energy?",
+          "options": [
+            "It is extremely heavy to transport.",
+            "Its low volumetric energy density requires very high pressures or low temperatures to store efficiently.",
+            "It decays rapidly into toxic chemical waste.",
+            "It can only be extracted from rare mineral deposits."
+          ],
+          "correctAnswer": "Its low volumetric energy density requires very high pressures or low temperatures to store efficiently.",
+          "explanation": "Paragraph 4 explains that since hydrogen is the lightest element, packing it tightly requires advanced compression (up to 700 bar) or cryogenic cooling (-253°C)."
+        },
+        {
+          "id": "ielts-re-10",
+          "type": "multiple_choice",
+          "prompt": "Reading: According to the passage, how do tree roots prevent soil erosion?",
+          "options": [
+            "By secreting chemicals that solidify local sand particles",
+            "By absorbing excess rainwater to prevent runoff while binding soil particles physically",
+            "By blocking strong winds at ground level",
+            "By attracting earthworms that aerate the ground"
+          ],
+          "correctAnswer": "By absorbing excess rainwater to prevent runoff while binding soil particles physically",
+          "explanation": "The final section outlines how root networks act as anchors holding the topsoil together, while also reducing the speed of surface water flow through absorption."
+        }
+      ]
+    },
+    {
+      "sectionId": "writing",
+      "sectionTitle": "Writing",
+      "questions": [
+        {
+          "id": "ielts-wr-1",
+          "type": "essay",
+          "prompt": "Task 1: The graph below shows the average monthly rainfall in three major cities over a one-year period. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+          "options": [],
+          "correctAnswer": "Written essay response",
+          "explanation": "A high-scoring Task 1 response requires an overview, reporting key trends, and making logical comparisons between the cities' rainfall volumes."
+        },
+        {
+          "id": "ielts-wr-2",
+          "type": "essay",
+          "prompt": "Task 2: Some people believe that university education should focus on practical skills that help students find jobs, while others argue that the main purpose of a university should be academic theory. Discuss both views and give your opinion.",
+          "options": [],
+          "correctAnswer": "Written essay response",
+          "explanation": "Must address both perspectives, maintain a clear personal stance throughout, and provide relevant examples."
+        },
+        {
+          "id": "ielts-wr-3",
+          "type": "essay",
+          "prompt": "Task 1: The diagram below shows the process by which sand and gravel are processed into concrete for building purposes. Summarize the information by selecting and reporting the main features.",
+          "options": [],
+          "correctAnswer": "Written essay response",
+          "explanation": "Explain each stage of the process chronologically, using passive voice and appropriate transition markers."
+        },
+        {
+          "id": "ielts-wr-4",
+          "type": "essay",
+          "prompt": "Task 2: In many nations, the average age of the population is increasing. Is this a positive or negative development? State your opinion with supporting evidence.",
+          "options": [],
+          "correctAnswer": "Written essay response",
+          "explanation": "Discuss social and economic implications of an aging population, and clearly argue whether the pros outweigh the cons."
+        },
+        {
+          "id": "ielts-wr-5",
+          "type": "essay",
+          "prompt": "Task 1: The table below shows the percentage of household budget spent on various categories (food, housing, transport, leisure) in five European countries in 2020. Summarize the main trends.",
+          "options": [],
+          "correctAnswer": "Written essay response",
+          "explanation": "Group similar categories or countries together and highlight maximums/minimums to present a structured comparative report."
+        },
+        {
+          "id": "ielts-wr-6",
+          "type": "essay",
+          "prompt": "Task 2: Some people think that international travel is beneficial for both travelers and the host countries. Others believe it has negative social and environmental impacts. Discuss both views and give your opinion.",
+          "options": [],
+          "correctAnswer": "Written essay response",
+          "explanation": "Discuss cultural and economic benefits versus issues like overtourism and carbon footprint, giving a balanced personal conclusion."
+        },
+        {
+          "id": "ielts-wr-7",
+          "type": "essay",
+          "prompt": "Task 1: The two maps show the changes that took place in a small coastal village called Oakwood between 2000 and 2020. Describe the developments.",
+          "options": [],
+          "correctAnswer": "Written essay response",
+          "explanation": "Compare the maps, describing additions, expansions, replacements, or modernization of infrastructure using spatial prepositions."
+        },
+        {
+          "id": "ielts-wr-8",
+          "type": "essay",
+          "prompt": "Task 2: Successful businesses should prioritize the happiness of their employees over corporate profits. To what extent do you agree or disagree?",
+          "options": [],
+          "correctAnswer": "Written essay response",
+          "explanation": "Take a clear position and discuss the correlation between employee satisfaction, productivity, and long-term business success."
+        },
+        {
+          "id": "ielts-wr-9",
+          "type": "essay",
+          "prompt": "Task 1: The pie charts compare the electricity generation sources (coal, gas, hydro, nuclear, wind) in a specific country in 2010 and 2020. Summarize the changes.",
+          "options": [],
+          "correctAnswer": "Written essay response",
+          "explanation": "Describe shifts from fossil fuels to renewable energy sources, highlighting significant percentage increases or decreases."
+        },
+        {
+          "id": "ielts-wr-10",
+          "type": "essay",
+          "prompt": "Task 2: The internet has made it possible for people to work or study from home. Does this development have more advantages or disadvantages?",
+          "options": [],
+          "correctAnswer": "Written essay response",
+          "explanation": "Examine benefits (flexibility, zero commute) versus drawbacks (isolation, distractions) and conclude which side is dominant."
+        }
+      ]
+    },
+    {
+      "sectionId": "speaking",
+      "sectionTitle": "Speaking",
+      "questions": [
+        {
+          "id": "ielts-sp-1",
+          "type": "essay",
+          "prompt": "Part 2 Cue Card: Describe a book that had a significant influence on you. You should say: what the book is, who wrote it, what it is about, and explain why it influenced you so deeply.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Expect to speak fluently for 1 to 2 minutes. Use descriptive vocabulary, logical discourse markers, and clear pronunciation."
+        },
+        {
+          "id": "ielts-sp-2",
+          "type": "essay",
+          "prompt": "Part 1 Interview: Let's talk about your hometown. Where is your hometown located? What do you like most about living there? Would you say it is a good place for young people to live?",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Answer promptly with 2-4 sentences per question, demonstrating natural intonation and direct relevance."
+        },
+        {
+          "id": "ielts-sp-3",
+          "type": "essay",
+          "prompt": "Part 3 Discussion: We've been talking about books. Let's expand on this topic. Why do you think some children dislike reading? How has technology changed the way people read books? Do you think physical books will ever disappear?",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Provide detailed, abstract answers. Use complex grammar structures, hypothesis, and express general societal opinions."
+        },
+        {
+          "id": "ielts-sp-4",
+          "type": "essay",
+          "prompt": "Part 2 Cue Card: Describe a memorable journey you took. You should say: where you went, how you traveled, who you went with, and explain why it was so memorable.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Narrate in past tenses. Maintain coherence, vary vocabulary, and cover all prompt points within 2 minutes."
+        },
+        {
+          "id": "ielts-sp-5",
+          "type": "essay",
+          "prompt": "Part 1 Interview: Let's talk about accommodation. Do you live in a house or an apartment? Who do you live with? Which is your favorite room and why?",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Respond comfortably, using precise vocabulary related to housing and furniture with fluid transitions."
+        },
+        {
+          "id": "ielts-sp-6",
+          "type": "essay",
+          "prompt": "Part 3 Discussion: We've been discussing travel. Why do people choose to travel to other countries? What are the environmental impacts of modern tourism? Should governments limit tourist numbers at heritage sites?",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Develop arguments comprehensively, illustrating answers with examples and weighing pros/cons."
+        },
+        {
+          "id": "ielts-sp-7",
+          "type": "essay",
+          "prompt": "Part 2 Cue Card: Describe an historical building you visited. You should say: what building it is, where it is located, when you visited it, and explain what you found most interesting about it.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Provide vivid descriptive language, use historical or architectural terms, and structure details chronologically."
+        },
+        {
+          "id": "ielts-sp-8",
+          "type": "essay",
+          "prompt": "Part 1 Interview: Let's talk about hobbies. Do you have any hobbies? Why did you start this hobby? How much time do you spend on it each week?",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Give enthusiastic but natural answers, employing gerunds, frequency adverbs, and expressing personal feelings."
+        },
+        {
+          "id": "ielts-sp-9",
+          "type": "essay",
+          "prompt": "Part 3 Discussion: We've been talking about history. Why is it important to study history at school? How can museums make history more interesting for visitors? Do you think we can learn from past mistakes?",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Formulate sophisticated thoughts, utilizing conditionals, passive voice, and expressing abstract philosophical reasoning."
+        },
+        {
+          "id": "ielts-sp-10",
+          "type": "essay",
+          "prompt": "Part 2 Cue Card: Describe a person who has greatly helped you in your life. You should say: who the person is, how they helped you, when it happened, and explain how you felt about their help.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Express gratitude, describe personal qualities, and maintain a warm, communicative tone for 2 minutes."
+        }
+      ]
+    }
+  ]
+}

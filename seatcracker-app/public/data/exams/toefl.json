@@ -1,0 +1,430 @@
+{
+  "examId": "toefl",
+  "examTitle": "TOEFL iBT Test",
+  "sections": [
+    {
+      "sectionId": "reading",
+      "sectionTitle": "Reading",
+      "questions": [
+        {
+          "id": "toefl-re-1",
+          "type": "multiple_choice",
+          "prompt": "Reading: The word 'ubiquitous' in paragraph 1 is closest in meaning to which of the following?",
+          "options": ["unique", "widespread", "temporary", "ancient"],
+          "correctAnswer": "widespread",
+          "explanation": "'Ubiquitous' means existing or being everywhere at the same time, which is closest in meaning to 'widespread'."
+        },
+        {
+          "id": "toefl-re-2",
+          "type": "multiple_choice",
+          "prompt": "Reading: According to paragraph 2, why did early hominids begin migrating out of Africa?",
+          "options": [
+            "Due to changing environmental conditions and shifts in food resource availability.",
+            "They were driven out by larger predator species.",
+            "A sudden volcanic eruption destroyed their primary habitats.",
+            "They followed the migratory path of marine mammals."
+          ],
+          "correctAnswer": "Due to changing environmental conditions and shifts in food resource availability.",
+          "explanation": "Paragraph 2 specifically details how fluctuating climate patterns reduced local vegetation, forcing early hominids to follow migrating game across the land bridges."
+        },
+        {
+          "id": "toefl-re-3",
+          "type": "multiple_choice",
+          "prompt": "Reading: Which of the following can be inferred from the discussion of geothermal heat in the passage?",
+          "options": [
+            "It is only found near tectonic plate boundaries.",
+            "It represents an infinite, completely non-depletable resource at all depths.",
+            "Its utilization is heavily constrained by current drilling depth limitations.",
+            "It is more expensive than coal energy."
+          ],
+          "correctAnswer": "Its utilization is heavily constrained by current drilling depth limitations.",
+          "explanation": "The author notes that while heat is present deep in the crust, current commercial drills cannot exceed 10 kilometers without melting, implying a technological constraint."
+        },
+        {
+          "id": "toefl-re-4",
+          "type": "multiple_choice",
+          "prompt": "Reading: The word 'empirical' in paragraph 3 is closest in meaning to which of the following?",
+          "options": ["theoretical", "observational", "speculative", "logical"],
+          "correctAnswer": "observational",
+          "explanation": "'Empirical' refers to verification by observation or experiment rather than theory, making 'observational' the correct synonym."
+        },
+        {
+          "id": "toefl-re-5",
+          "type": "multiple_choice",
+          "prompt": "Reading: According to the passage, what is the primary role of phytoplankton in the marine carbon cycle?",
+          "options": [
+            "They release carbon dioxide through respiration.",
+            "They absorb dissolved inorganic carbon during photosynthesis and sink it to the deep ocean upon death.",
+            "They dissolve calcium carbonate shells.",
+            "They block solar radiation from heating the water."
+          ],
+          "correctAnswer": "They absorb dissolved inorganic carbon during photosynthesis and sink it to the deep ocean upon death.",
+          "explanation": "The text describes the biological pump, detailing how phytoplankton fix carbon at the surface and transport it downward when they die and settle."
+        },
+        {
+          "id": "toefl-re-6",
+          "type": "multiple_choice",
+          "prompt": "Reading: Why does the author mention the 'Gutenberg press' in paragraph 4?",
+          "options": [
+            "To argue that literacy rates did not improve immediately.",
+            "To provide an example of a technology that accelerated the spread of ideas.",
+            "To prove that woodblock printing was superior.",
+            "To criticize the quality of early publications."
+          ],
+          "correctAnswer": "To provide an example of a technology that accelerated the spread of ideas.",
+          "explanation": "The author introduces the printing press as a key historical catalyst, illustrating how mechanical replication facilitated rapid intellectual dissemination."
+        },
+        {
+          "id": "toefl-re-7",
+          "type": "multiple_choice",
+          "prompt": "Reading: The word 'resilient' in paragraph 5 is closest in meaning to which of the following?",
+          "options": ["fragile", "adaptable", "destructive", "isolated"],
+          "correctAnswer": "adaptable",
+          "explanation": "'Resilient' indicates the capacity to recover quickly from difficulties, corresponding closely to 'adaptable' or tough."
+        },
+        {
+          "id": "toefl-re-8",
+          "type": "multiple_choice",
+          "prompt": "Reading: According to paragraph 6, what is the primary drawback of using pesticides on agricultural crops?",
+          "options": [
+            "They reduce the nutritional value of vegetables.",
+            "Pests eventually develop genetic resistance, leading to stronger chemical applications.",
+            "They alter the taste of local food crops.",
+            "They require continuous manual application."
+          ],
+          "correctAnswer": "Pests eventually develop genetic resistance, leading to stronger chemical applications.",
+          "explanation": "Paragraph 6 discusses the 'pesticide treadmill,' where target species mutate and develop immunity, rendering older treatments ineffective and prompting higher dosages."
+        },
+        {
+          "id": "toefl-re-9",
+          "type": "multiple_choice",
+          "prompt": "Reading: Which of the sentences below best expresses the essential information in the highlighted sentence: 'Although the initial setup costs for solar fields are astronomical, the long-term operational costs are practically negligible, making them highly profitable over a twenty-year lifespan.'?",
+          "options": [
+            "Solar fields are profitable only after twenty years of expensive operation.",
+            "Despite high initial costs, low ongoing maintenance makes solar fields highly profitable over time.",
+            "Initial setup costs prevent solar fields from being commercially viable.",
+            "Long-term operational costs eventually exceed the initial setup expenses."
+          ],
+          "correctAnswer": "Despite high initial costs, low ongoing maintenance makes solar fields highly profitable over time.",
+          "explanation": "This option accurately captures the contrast between high initial costs and low long-term costs resulting in overall profitability."
+        },
+        {
+          "id": "toefl-re-10",
+          "type": "multiple_choice",
+          "prompt": "Reading: The author's tone in describing the extinction of the dinosaurs is best characterized as which of the following?",
+          "options": ["indifferent", "analytical", "sympathetic", "alarmist"],
+          "correctAnswer": "analytical",
+          "explanation": "The author presents scientific theories, crater data, and geological evidence in a detached, objective, and analytical manner."
+        }
+      ]
+    },
+    {
+      "sectionId": "listening",
+      "sectionTitle": "Listening",
+      "questions": [
+        {
+          "id": "toefl-li-1",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: Why does the student go to see the professor?",
+          "options": [
+            "To ask for a deadline extension on his essay.",
+            "To clarify a concept discussed in the recent geology lecture.",
+            "To apply for a research assistant position.",
+            "To request a recommendation letter."
+          ],
+          "correctAnswer": "To clarify a concept discussed in the recent geology lecture.",
+          "explanation": "The student states at the beginning: 'I was reviewing my notes on plate tectonics and got confused about the difference between subduction zones and transform faults.'"
+        },
+        {
+          "id": "toefl-li-2",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: What is the professor's attitude toward the student's research proposal?",
+          "options": [
+            "She thinks it is too ambitious for a freshman.",
+            "She is highly supportive and offers to provide additional resources.",
+            "She advises him to change his topic completely.",
+            "She is skeptical of his sources."
+          ],
+          "correctAnswer": "She is highly supportive and offers to provide additional resources.",
+          "explanation": "The professor remarks: 'That is a fascinating angle. I actually have some journals in my office that might help you get started.'"
+        },
+        {
+          "id": "toefl-li-3",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: What is the main topic of the lecture?",
+          "options": [
+            "The feeding habits of migratory birds.",
+            "The impact of light pollution on urban ecosystems.",
+            "The history of street lighting in Europe.",
+            "The development of avian flight patterns."
+          ],
+          "correctAnswer": "The impact of light pollution on urban ecosystems.",
+          "explanation": "The lecturer introduces the class by stating: 'Today, we are examining how artificial light at night affects nocturnal wildlife and migration routes.'"
+        },
+        {
+          "id": "toefl-li-4",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: Why does the speaker mention the experiment with the monarch butterflies?",
+          "options": [
+            "To demonstrate how quickly butterflies reproduce.",
+            "To provide evidence that magnetic fields guide migration.",
+            "To show that temperature changes trigger flight patterns.",
+            "To illustrate how butterflies navigate using sunlight."
+          ],
+          "correctAnswer": "To provide evidence that magnetic fields guide migration.",
+          "explanation": "The speaker mentions placing butterflies in simulated magnetic cages to prove they orient themselves using internal biological compasses."
+        },
+        {
+          "id": "toefl-li-5",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: What problem is the student experiencing with his dorm room?",
+          "options": [
+            "The heating system is not working.",
+            "His roommate is too noisy.",
+            "The window lock is broken.",
+            "He wants to swap rooms."
+          ],
+          "correctAnswer": "The heating system is not working.",
+          "explanation": "The student complains to the housing officer: 'It is freezing in my room. The radiator is completely cold, even when turned up to maximum.'"
+        },
+        {
+          "id": "toefl-li-6",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: What does the housing officer advise the student to do next?",
+          "options": [
+            "Fill out a maintenance request form online.",
+            "Move into a temporary room immediately.",
+            "Contact a private repair service.",
+            "Wait for a technician to visit today."
+          ],
+          "correctAnswer": "Fill out a maintenance request form online.",
+          "explanation": "The officer instructs: 'You need to log into the housing portal and submit a formal work order so the maintenance crew can schedule a visit.'"
+        },
+        {
+          "id": "toefl-li-7",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: What is the primary purpose of the registrar's announcement?",
+          "options": [
+            "To explain new registration procedures.",
+            "To warn students about upcoming tuition fee deadlines.",
+            "To announce the cancellation of several popular courses.",
+            "To invite students to a career fair."
+          ],
+          "correctAnswer": "To explain new registration procedures.",
+          "explanation": "The registrar details the transition to the new online system and outlines the alphabetical enrollment phases starting next month."
+        },
+        {
+          "id": "toefl-li-8",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: Why does the professor explain the term 'allopatric speciation'?",
+          "options": [
+            "To introduce the next chapter of the textbook.",
+            "To clarify how physical barriers lead to the evolution of new species.",
+            "To contrast biological evolution with geological changes.",
+            "To answer a question from a student."
+          ],
+          "correctAnswer": "To clarify how physical barriers lead to the evolution of new species.",
+          "explanation": "The professor defines the term using a river dividing a population of beetles as an example, illustrating geographic isolation."
+        },
+        {
+          "id": "toefl-li-9",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: According to the lecture, what is a key feature of early cave paintings?",
+          "options": [
+            "They depicted human portraits in high detail.",
+            "They predominantly featured large game animals and hand stencils.",
+            "They were painted using oil-based pigments.",
+            "They were only created in deep underground chambers."
+          ],
+          "correctAnswer": "They predominantly featured large game animals and hand stencils.",
+          "explanation": "The art historian notes that over 90% of the images in Lascaux consist of horses, bisons, and outlines of human hands."
+        },
+        {
+          "id": "toefl-li-10",
+          "type": "multiple_choice",
+          "prompt": "Listen and select: What is the student's next step for his history assignment?",
+          "options": [
+            "Find primary source documents in the archives.",
+            "Interview a local historian.",
+            "Write the first draft of the introduction.",
+            "Select a different historical event to analyze."
+          ],
+          "correctAnswer": "Find primary source documents in the archives.",
+          "explanation": "The tutor tells the student: 'Your outline looks solid. Now, you need to head to the university library archives to locate letters or diary entries from that era.'"
+        }
+      ]
+    },
+    {
+      "sectionId": "speaking",
+      "sectionTitle": "Speaking",
+      "questions": [
+        {
+          "id": "toefl-sp-1",
+          "type": "essay",
+          "prompt": "Independent Speaking Task: Some people prefer to study alone, while others prefer to study in groups. Which do you prefer and why? Give specific reasons to support your choice.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Deliver a 45-second response stating a clear preference, backed by two distinct reasons with examples."
+        },
+        {
+          "id": "toefl-sp-2",
+          "type": "essay",
+          "prompt": "Integrated Speaking Task (Campus Announcement): Read a notice about university parking rate increases. Then, listen to a conversation between two students. Summarize the man's opinion and the reasons he gives for holding that opinion.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Deliver a 60-second response synthesizing information from both reading and listening passages."
+        },
+        {
+          "id": "toefl-sp-3",
+          "type": "essay",
+          "prompt": "Integrated Speaking Task (Academic Lecture): Read a passage about 'cognitive dissonance'. Then, listen to a lecture explaining the concept with a personal example. Explain how the example illustrates the concept.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Synthesize the academic term with the lecturer's specific case study, speaking clearly for 60 seconds."
+        },
+        {
+          "id": "toefl-sp-4",
+          "type": "essay",
+          "prompt": "Integrated Speaking Task (Lecture Summary): Listen to a biology professor describe two adaptations that allow desert plants to conserve water. Using the points and examples, summarize these adaptations.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Summarize the key points of the listening passage comprehensively within 60 seconds."
+        },
+        {
+          "id": "toefl-sp-5",
+          "type": "essay",
+          "prompt": "Independent Speaking Task: Do you agree or disagree with the statement that high school students should be required to perform community service hours? Explain why.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "State a clear position and justify it with personal or general observations in 45 seconds."
+        },
+        {
+          "id": "toefl-sp-6",
+          "type": "essay",
+          "prompt": "Integrated Speaking Task (Campus Policy): Read a proposal to shorten class registration periods. Listen to a student voice objections. Summarize her concerns.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Synthesize the student's argument against the administrative changes in a structured 60-second talk."
+        },
+        {
+          "id": "toefl-sp-7",
+          "type": "essay",
+          "prompt": "Integrated Speaking Task (Academic Concept): Read about 'mimicry' in animals. Listen to a professor describe how a specific species uses mimicry to deter predators. Explain this phenomenon.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Define the concept from the reading and link it directly to the professor's biological examples."
+        },
+        {
+          "id": "toefl-sp-8",
+          "type": "essay",
+          "prompt": "Integrated Speaking Task (Business Concept): Listen to a marketing lecture explaining 'impulse buying'. Summarize the two strategies stores use to trigger it.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Outline the commercial placement and visual design techniques detailed by the lecturer."
+        },
+        {
+          "id": "toefl-sp-9",
+          "type": "essay",
+          "prompt": "Independent Speaking Task: Would you prefer to live in a modern apartment building in a busy city or a small house in the countryside? Explain your reasons.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Present a well-reasoned choice, focusing on lifestyle, convenience, or environment in 45 seconds."
+        },
+        {
+          "id": "toefl-sp-10",
+          "type": "essay",
+          "prompt": "Integrated Speaking Task (Campus Event): Read about a cancellation of the spring concert. Listen to a debate between students. Explain the alternatives they discuss.",
+          "options": [],
+          "correctAnswer": "Spoken response",
+          "explanation": "Contrast the perspectives and outline the proposed backup solutions mentioned by the speakers."
+        }
+      ]
+    },
+    {
+      "sectionId": "writing",
+      "sectionTitle": "Writing",
+      "questions": [
+        {
+          "id": "toefl-wr-1",
+          "type": "essay",
+          "prompt": "Integrated Writing Task: Read a passage arguing that the Neanderthals went extinct because they were less intelligent than early humans. Listen to a lecture presenting counter-arguments. Summarize the points made in the lecture, explaining how they cast doubt on the reading.",
+          "options": [],
+          "correctAnswer": "Written essay",
+          "explanation": "Write a response of 150-225 words highlighting how the listening points refute the reading arguments."
+        },
+        {
+          "id": "toefl-wr-2",
+          "type": "essay",
+          "prompt": "Academic Discussion Writing Task: Your professor is hosting an online discussion: 'Should governments subsidize electric vehicles to combat climate change?' Write a response expressing your opinion, addressing the points raised by other students.",
+          "options": [],
+          "correctAnswer": "Written response",
+          "explanation": "Write a response of at least 100 words contributing to the academic thread with a clear, well-supported argument."
+        },
+        {
+          "id": "toefl-wr-3",
+          "type": "essay",
+          "prompt": "Integrated Writing Task: Read a text claiming that building high-speed rail networks is a waste of government funds. Listen to a talk defending the networks. Contrast the arguments.",
+          "options": [],
+          "correctAnswer": "Written essay",
+          "explanation": "Structure points systematically, pairing each objection in the reading with its corresponding rebuttal in the lecture."
+        },
+        {
+          "id": "toefl-wr-4",
+          "type": "essay",
+          "prompt": "Academic Discussion Writing Task: Discussion topic: 'Is it better for children to learn a second language in early childhood or in adolescence?' State your opinion and explain why.",
+          "options": [],
+          "correctAnswer": "Written response",
+          "explanation": "Argue the cognitive advantages or learning efficiencies of your chosen age bracket in a concise post."
+        },
+        {
+          "id": "toefl-wr-5",
+          "type": "essay",
+          "prompt": "Integrated Writing Task: Read a passage asserting that deep-sea mining is safe and commercially viable. Listen to a researcher raise ecological concerns. Summarize the researcher's points.",
+          "options": [],
+          "correctAnswer": "Written essay",
+          "explanation": "Synthesize the economic promises of the text with the marine devastation risks outlined in the talk."
+        },
+        {
+          "id": "toefl-wr-6",
+          "type": "essay",
+          "prompt": "Academic Discussion Writing Task: Discussion topic: 'Should physical education classes be mandatory in universities?' Join the discussion with your perspective.",
+          "options": [],
+          "correctAnswer": "Written response",
+          "explanation": "Write a compelling argument weighing health initiatives against academic freedom for university students."
+        },
+        {
+          "id": "toefl-wr-7",
+          "type": "essay",
+          "prompt": "Integrated Writing Task: Read about the benefits of organic farming. Listen to an agronomist discuss yield issues and pesticide usage. Contrast the two views.",
+          "options": [],
+          "correctAnswer": "Written essay",
+          "explanation": "Explicitly outline how the agronomist challenges the sustainability claims made in the reading."
+        },
+        {
+          "id": "toefl-wr-8",
+          "type": "essay",
+          "prompt": "Academic Discussion Writing Task: Discussion topic: 'Do social media platforms improve or harm interpersonal relationships?' Express your thoughts.",
+          "options": [],
+          "correctAnswer": "Written response",
+          "explanation": "Contribute a focused essay analyzing the trade-offs of modern digital connectedness vs real-life interactions."
+        },
+        {
+          "id": "toefl-wr-9",
+          "type": "essay",
+          "prompt": "Integrated Writing Task: Read a historical text asserting that the Roman Empire fell solely due to barbarian invasions. Listen to a lecture detailing economic and internal rot. Contrast the views.",
+          "options": [],
+          "correctAnswer": "Written essay",
+          "explanation": "Highlight how the internal structural issues mentioned in the talk disprove the mono-causal theory of the text."
+        },
+        {
+          "id": "toefl-wr-10",
+          "type": "essay",
+          "prompt": "Academic Discussion Writing Task: Discussion topic: 'Should employees be allowed to work flexible hours of their own choosing?' Support your stance with logical points.",
+          "options": [],
+          "correctAnswer": "Written response",
+          "explanation": "Discuss productivity, corporate trust, and work-life balance to formulate a high-quality contribution."
+        }
+      ]
+    }
+  ]
+}

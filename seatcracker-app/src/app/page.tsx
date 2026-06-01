@@ -15,6 +15,8 @@ import CheatCodeMode from "../components/EAMCET/CheatCodeMode"; // Force TS upda
 
 import AccessGate from "../components/AccessGate";
 import IntroPage from "../components/IntroPage";
+import StudyAbroadDashboard from "../components/StudyAbroad/Dashboard";
+import StudyAbroadPracticeArena from "../components/StudyAbroad/PracticeArena";
 import { onAuthChange, signOut, type User } from "../lib/firebase";
 import {
   getAccessState,
@@ -40,8 +42,10 @@ import {
  * 10: RoadmapMode (Roadmap Execution Flow)
  * 11: RealBattleMode (Mock Exam Engine)
  * 12: CheatCodeMode (Last 10 Days Preparation)
+ * 13: StudyAbroadDashboard
+ * 14: StudyAbroadPracticeArena
  */
-type Step = -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
+type Step = -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14;
 
 export default function Home() {
   const [step, setStep] = useState<Step>(1); // Public home flow starts without a login wall.
@@ -49,6 +53,8 @@ export default function Home() {
   const [exam, setExam] = useState("");                  // e.g., "AP" or "TS"
   const [course, setCourse] = useState("");              // e.g., "Engineering"
   const [mode, setMode] = useState<"practice" | "roadmap" | "battle" | "cheatcode" | "">("");
+  const [studyAbroadSection, setStudyAbroadSection] = useState("");
+  const [studyAbroadMode, setStudyAbroadMode] = useState<"practice" | "battle" | "cheatcode">("practice");
   const [mounted, setMounted] = useState(false);
   const [roadmapData, setRoadmapData] = useState<
     { day: number; tasks: { subject: string; topic: string; priority: string; time: string }[] }[]
@@ -269,6 +275,11 @@ export default function Home() {
       window.location.href = "/jee-advanced";
       return;
     }
+    if (["GRE", "GMAT", "IELTS", "TOEFL"].includes(selected)) {
+      saveCloudProgress({ exam: selected, last_step: 13 });
+      go(13);
+      return;
+    }
     go(3);
   };
 
@@ -483,6 +494,29 @@ export default function Home() {
           exam={exam}
           course={course}
           onBack={() => go(6)}
+        />
+      )}
+
+      {/* Step 13: Study Abroad Dashboard */}
+      {step === 13 && (
+        <StudyAbroadDashboard
+          examId={testCategory}
+          onBack={() => go(2)}
+          onStartPractice={(sect, md) => {
+            setStudyAbroadSection(sect);
+            setStudyAbroadMode(md);
+            go(14);
+          }}
+        />
+      )}
+
+      {/* Step 14: Study Abroad Practice Arena */}
+      {step === 14 && (
+        <StudyAbroadPracticeArena
+          examId={testCategory}
+          sectionId={studyAbroadSection}
+          mode={studyAbroadMode}
+          onBack={() => go(13)}
         />
       )}
     </>

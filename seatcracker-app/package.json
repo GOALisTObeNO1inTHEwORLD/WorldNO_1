@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "video:studio": "remotion studio src/remotion/index.ts",
+    "video:thumbnail": "remotion still src/remotion/index.ts SeatCrackerThumbnail public/seatcracker-jee-thumbnail.png",
+    "video:render": "remotion render src/remotion/index.ts SeatCrackerAd60 public/seatcracker-ad-60.mp4",
+    "video:render:draft": "remotion render src/remotion/index.ts SeatCrackerAd60 public/seatcracker-ad-60-jee-draft.mp4 --scale=0.5 --concurrency=4 --crf=28",
+    "video:render:long": "remotion render src/remotion/index.ts SeatCrackerAd150 public/seatcracker-ad-150.mp4"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.100.1",
@@ -24,11 +29,13 @@
     "recharts": "^3.8.1"
   },
   "devDependencies": {
+    "@remotion/cli": "^4.0.459",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "^15.1.7",
+    "remotion": "^4.0.459",
     "typescript": "^5"
   }
 }

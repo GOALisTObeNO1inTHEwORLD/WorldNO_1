@@ -1,0 +1,264 @@
+{
+  "examId": "gre",
+  "examTitle": "GRE General Test",
+  "sections": [
+    {
+      "sectionId": "analytical_writing",
+      "sectionTitle": "Analytical Writing",
+      "questions": [
+        {
+          "id": "gre-aw-1",
+          "type": "essay",
+          "prompt": "Analyze an Issue: As people rely more and more on technology to solve problems, the ability of humans to think for themselves will surely deteriorate.",
+          "options": [],
+          "correctAnswer": "Essay response",
+          "explanation": "A successful response must analyze the statement, present a nuanced position, and back it up with evidence."
+        },
+        {
+          "id": "gre-aw-2",
+          "type": "essay",
+          "prompt": "Analyze an Issue: To understand the most important characteristics of a society, one must study its major cities.",
+          "options": [],
+          "correctAnswer": "Essay response",
+          "explanation": "A successful response must weigh the influence of major cities against other aspects of society, such as rural areas or historical institutions."
+        },
+        {
+          "id": "gre-aw-3",
+          "type": "essay",
+          "prompt": "Analyze an Issue: Educational institutions should actively encourage their students to choose fields of study that will prepare them for lucrative careers.",
+          "options": [],
+          "correctAnswer": "Essay response",
+          "explanation": "Discuss the balance between financial success, academic passion, and societal needs."
+        },
+        {
+          "id": "gre-aw-4",
+          "type": "essay",
+          "prompt": "Analyze an Issue: Scandals are useful because they focus our attention on problems in ways that no speaker or reformer ever could.",
+          "options": [],
+          "correctAnswer": "Essay response",
+          "explanation": "Analyze how scandals expose institutional corruption versus their potential for distraction."
+        },
+        {
+          "id": "gre-aw-5",
+          "type": "essay",
+          "prompt": "Analyze an Issue: Claim: Governments must ensure that their major cities receive the financial support they need to thrive. Reason: It is primarily in cities that a nation's cultural traditions are preserved and generated.",
+          "options": [],
+          "correctAnswer": "Essay response",
+          "explanation": "Address the claim and reason, arguing whether the support for cities is justified by cultural preservation."
+        },
+        {
+          "id": "gre-aw-6",
+          "type": "essay",
+          "prompt": "Analyze an Issue: A nation should require all of its students to study the same national curriculum until they enter college.",
+          "options": [],
+          "correctAnswer": "Essay response",
+          "explanation": "Examine the benefits of educational uniformity versus localized or personalized curriculums."
+        },
+        {
+          "id": "gre-aw-7",
+          "type": "essay",
+          "prompt": "Analyze an Issue: The best way to teach is to praise positive actions and ignore negative ones.",
+          "options": [],
+          "correctAnswer": "Essay response",
+          "explanation": "Discuss the effectiveness of positive reinforcement versus negative consequences in pedagogical contexts."
+        },
+        {
+          "id": "gre-aw-8",
+          "type": "essay",
+          "prompt": "Analyze an Issue: The greatness of individuals can be decided only by those who live after them, not by their contemporaries.",
+          "options": [],
+          "correctAnswer": "Essay response",
+          "explanation": "Debate whether contemporary recognition or historical hindsight is the true measure of greatness."
+        },
+        {
+          "id": "gre-aw-9",
+          "type": "essay",
+          "prompt": "Analyze an Issue: Leaders are created by the demands that are placed on them rather than by their own inherent abilities.",
+          "options": [],
+          "correctAnswer": "Essay response",
+          "explanation": "Synthesize the 'great man' theory of leadership with situational leadership theories."
+        },
+        {
+          "id": "gre-aw-10",
+          "type": "essay",
+          "prompt": "Analyze an Issue: The best ideas arise from a state of conflict rather than a state of consensus.",
+          "options": [],
+          "correctAnswer": "Essay response",
+          "explanation": "Examine whether intellectual disagreement drives innovation more than cooperative agreement."
+        }
+      ]
+    },
+    {
+      "sectionId": "verbal_reasoning",
+      "sectionTitle": "Verbal Reasoning",
+      "questions": [
+        {
+          "id": "gre-vr-1",
+          "type": "multiple_choice",
+          "prompt": "Despite the team's _______ performance in the first half, they managed a spectacular comeback.",
+          "options": ["stellar", "abysmal", "mediocre", "unprecedented"],
+          "correctAnswer": "abysmal",
+          "explanation": "The word 'despite' indicates a contrast with the spectacular comeback, so the first half performance must have been very poor."
+        },
+        {
+          "id": "gre-vr-2",
+          "type": "multiple_choice",
+          "prompt": "Because the author's argument is based on _______ data, his conclusions are highly suspect.",
+          "options": ["empirical", "spurious", "irrefutable", "substantive"],
+          "correctAnswer": "spurious",
+          "explanation": "The cause-and-effect relationship indicated by 'Because' and the negative outcome 'highly suspect' suggests the data was false or invalid."
+        },
+        {
+          "id": "gre-vr-3",
+          "type": "multiple_choice",
+          "prompt": "Her academic records were so _______ that even the most competitive universities offered her immediate admission.",
+          "options": ["lamentable", "flawless", "modest", "unexceptional"],
+          "correctAnswer": "flawless",
+          "explanation": "The consequence of being offered immediate admission by the most competitive universities implies her records were excellent."
+        },
+        {
+          "id": "gre-vr-4",
+          "type": "multiple_choice",
+          "prompt": "The speaker's style was highly _______, often using grand metaphors and theatrical pauses to keep the audience spellbound.",
+          "options": ["laconic", "bombastic", "dull", "pedestrian"],
+          "correctAnswer": "bombastic",
+          "explanation": "Grand metaphors and theatrical pauses describe an inflated, high-flown, or bombastic style of speech."
+        },
+        {
+          "id": "gre-vr-5",
+          "type": "multiple_choice",
+          "prompt": "Although the new regulations are intended to encourage growth, many economists fear they will actually _______ innovation.",
+          "options": ["foster", "stifle", "accelerate", "nurture"],
+          "correctAnswer": "stifle",
+          "explanation": "The word 'although' indicates contrast between the intended growth and the feared outcome of suppressing innovation."
+        },
+        {
+          "id": "gre-vr-6",
+          "type": "multiple_choice",
+          "prompt": "The editor refused to publish the manuscript, citing its _______ prose and repetitive arguments.",
+          "options": ["turgid", "lucid", "eloquent", "concise"],
+          "correctAnswer": "turgid",
+          "explanation": "Repetitive arguments match with 'turgid' (tediously pompous or bombastic) rather than positive words like lucid, eloquent, or concise."
+        },
+        {
+          "id": "gre-vr-7",
+          "type": "multiple_choice",
+          "prompt": "The negotiator's _______ demeanor during the crisis helped defuse tensions and paved the way for a peaceful resolution.",
+          "options": ["irascible", "placid", "bellicose", "hostile"],
+          "correctAnswer": "placid",
+          "explanation": "A calm (placid) demeanor helps defuse tensions, whereas hostile or bellicose behaviors would escalate them."
+        },
+        {
+          "id": "gre-vr-8",
+          "type": "multiple_choice",
+          "prompt": "The scientific community was highly skeptical of the new theory because the researcher failed to provide _______ evidence.",
+          "options": ["anecdotal", "corroborating", "flimsy", "inconclusive"],
+          "correctAnswer": "corroborating",
+          "explanation": "Skepticism arises when researchers fail to provide supporting or corroborating evidence."
+        },
+        {
+          "id": "gre-vr-9",
+          "type": "multiple_choice",
+          "prompt": "Known for his _______ nature, he rarely spoke in public and preferred writing long, detailed letters instead.",
+          "options": ["gregarious", "taciturn", "loquacious", "extroverted"],
+          "correctAnswer": "taciturn",
+          "explanation": "Rarely speaking in public indicates someone who is reserved or taciturn."
+        },
+        {
+          "id": "gre-vr-10",
+          "type": "multiple_choice",
+          "prompt": "Her sudden promotion was not _______; she had been consistently exceeding her targets for over three years.",
+          "options": ["earned", "merited", "gratuitous", "warranted"],
+          "correctAnswer": "gratuitous",
+          "explanation": "'Not gratuitous' means it was not unearned or without cause, since she had exceeded targets for three years."
+        }
+      ]
+    },
+    {
+      "sectionId": "quantitative_reasoning",
+      "sectionTitle": "Quantitative Reasoning",
+      "questions": [
+        {
+          "id": "gre-qr-1",
+          "type": "multiple_choice",
+          "prompt": "If x is a positive integer and x^2 + 5x - 6 = 0, what is the value of x?",
+          "options": ["1", "2", "3", "6"],
+          "correctAnswer": "1",
+          "explanation": "Factoring the equation gives (x + 6)(x - 1) = 0. Since x must be a positive integer, x = 1."
+        },
+        {
+          "id": "gre-qr-2",
+          "type": "multiple_choice",
+          "prompt": "The average (arithmetic mean) of five numbers is 20. If the sum of three of the numbers is 45, what is the average of the other two numbers?",
+          "options": ["20", "22.5", "25", "27.5"],
+          "correctAnswer": "27.5",
+          "explanation": "The sum of the five numbers is 5 * 20 = 100. The sum of the other two is 100 - 45 = 55. Their average is 55 / 2 = 27.5."
+        },
+        {
+          "id": "gre-qr-3",
+          "type": "multiple_choice",
+          "prompt": "A box contains 5 red balls, 3 blue balls, and 2 green balls. If a ball is drawn at random, what is the probability that it is NOT red?",
+          "options": ["1/5", "3/10", "1/2", "3/5"],
+          "correctAnswer": "1/2",
+          "explanation": "The number of non-red balls is 3 blue + 2 green = 5. The total number of balls is 10. The probability is 5/10 = 1/2."
+        },
+        {
+          "id": "gre-qr-4",
+          "type": "multiple_choice",
+          "prompt": "If 3x + 2y = 12 and x - y = 4, what is the value of x?",
+          "options": ["2", "3", "4", "5"],
+          "correctAnswer": "4",
+          "explanation": "From the second equation, y = x - 4. Substituting this into the first equation: 3x + 2(x - 4) = 12 -> 5x - 8 = 12 -> 5x = 20 -> x = 4."
+        },
+        {
+          "id": "gre-qr-5",
+          "type": "multiple_choice",
+          "prompt": "A car travels at an average speed of 60 miles per hour for 2 hours and 30 minutes. How far does the car travel?",
+          "options": ["120 miles", "135 miles", "150 miles", "165 miles"],
+          "correctAnswer": "150 miles",
+          "explanation": "2 hours and 30 minutes is 2.5 hours. Distance = Speed * Time = 60 * 2.5 = 150 miles."
+        },
+        {
+          "id": "gre-qr-6",
+          "type": "multiple_choice",
+          "prompt": "If a right triangle has a hypotenuse of length 10 and one leg of length 6, what is the area of the triangle?",
+          "options": ["24", "30", "48", "60"],
+          "correctAnswer": "24",
+          "explanation": "Using the Pythagorean theorem, the other leg is sqrt(10^2 - 6^2) = 8. Area = (1/2) * base * height = (1/2) * 6 * 8 = 24."
+        },
+        {
+          "id": "gre-qr-7",
+          "type": "multiple_choice",
+          "prompt": "An item is marked down by 20% from its original price. If the sale price is $80, what was the original price?",
+          "options": ["$96", "$100", "$110", "$120"],
+          "correctAnswer": "$100",
+          "explanation": "Let original price be P. Sale price = 0.8 * P = $80. Therefore, P = 80 / 0.8 = $100."
+        },
+        {
+          "id": "gre-qr-8",
+          "type": "multiple_choice",
+          "prompt": "What is the positive difference between the sum of the first 10 positive even integers and the sum of the first 10 positive odd integers?",
+          "options": ["5", "10", "20", "100"],
+          "correctAnswer": "10",
+          "explanation": "The n-th positive even integer is 2n, and the n-th positive odd integer is 2n - 1. Their difference is 1. For 10 terms, the difference is 10 * 1 = 10."
+        },
+        {
+          "id": "gre-qr-9",
+          "type": "multiple_choice",
+          "prompt": "If a circle has a circumference of 16π, what is its area?",
+          "options": ["8π", "16π", "32π", "64π"],
+          "correctAnswer": "64π",
+          "explanation": "Circumference = 2πr = 16π -> r = 8. Area = πr^2 = π(8^2) = 64π."
+        },
+        {
+          "id": "gre-qr-10",
+          "type": "multiple_choice",
+          "prompt": "If 4^x = 8^(x-1), what is the value of x?",
+          "options": ["2", "3", "4", "5"],
+          "correctAnswer": "3",
+          "explanation": "Rewriting using base 2: (2^2)^x = (2^3)^(x-1) -> 2x = 3(x - 1) -> 2x = 3x - 3 -> x = 3."
+        }
+      ]
+    }
+  ]
+}
