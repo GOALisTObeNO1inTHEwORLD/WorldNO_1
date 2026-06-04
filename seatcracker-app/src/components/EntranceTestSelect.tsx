@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import styles from "./SelectScreen.module.css";
 
 interface Props {
@@ -53,6 +54,7 @@ const TESTS = [
 export default function EntranceTestSelect({ currentTest, onNext, onBack }: Props) {
   const [selected, setSelected] = useState(currentTest || "EAMCET");
   const [search, setSearch] = useState("");
+  const [showProjectsModal, setShowProjectsModal] = useState(false);
 
   const filteredTests = TESTS.filter(test => 
     test.label.toLowerCase().includes(search.toLowerCase())
@@ -62,12 +64,43 @@ export default function EntranceTestSelect({ currentTest, onNext, onBack }: Prop
     <div className={styles.wrapper}>
       <div className={styles.bgOrb} />
       <div className={styles.container}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px", gap: "12px", flexWrap: "wrap" }}>
           <button className={styles.backBtn} onClick={onBack} id="test-back-btn" style={{ marginBottom: 0 }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
             Back
+          </button>
+
+          <button 
+            onClick={() => setShowProjectsModal(true)}
+            style={{
+              background: "linear-gradient(135deg, rgba(0, 240, 255, 0.1), rgba(255, 0, 85, 0.1))",
+              border: "1px solid rgba(0, 240, 255, 0.3)",
+              borderRadius: "100px",
+              padding: "8px 16px",
+              fontSize: "13px",
+              color: "#00f0ff",
+              cursor: "pointer",
+              fontWeight: 600,
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              transition: "all 0.3s ease",
+              boxShadow: "0 0 10px rgba(0, 240, 255, 0.1)"
+            }}
+            onMouseOver={(e) => {
+              e.currentTarget.style.background = "linear-gradient(135deg, rgba(0, 240, 255, 0.2), rgba(255, 0, 85, 0.2))";
+              e.currentTarget.style.boxShadow = "0 0 15px rgba(0, 240, 255, 0.2)";
+              e.currentTarget.style.borderColor = "rgba(0, 240, 255, 0.6)";
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.background = "linear-gradient(135deg, rgba(0, 240, 255, 0.1), rgba(255, 0, 85, 0.1))";
+              e.currentTarget.style.boxShadow = "0 0 10px rgba(0, 240, 255, 0.1)";
+              e.currentTarget.style.borderColor = "rgba(0, 240, 255, 0.3)";
+            }}
+          >
+            🚀 Explore Our Projects
           </button>
 
           <div style={{ position: "relative", width: "180px" }}>
@@ -143,6 +176,164 @@ export default function EntranceTestSelect({ currentTest, onNext, onBack }: Prop
           </svg>
         </button>
       </div>
+
+      {showProjectsModal && (
+        <div style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundColor: "rgba(3, 3, 5, 0.8)",
+          backdropFilter: "blur(12px)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          zIndex: 99999,
+          padding: "20px"
+        }} onClick={() => setShowProjectsModal(false)}>
+          <div style={{
+            background: "rgba(10, 10, 15, 0.9)",
+            border: "1px solid rgba(0, 240, 255, 0.2)",
+            boxShadow: "0 0 30px rgba(0, 240, 255, 0.15), inset 0 0 15px rgba(255, 0, 85, 0.05)",
+            borderRadius: "20px",
+            width: "100%",
+            maxWidth: "460px",
+            padding: "28px",
+            position: "relative",
+            color: "#f8fafc"
+          }} onClick={(e) => e.stopPropagation()}>
+            
+            {/* Close Button */}
+            <button 
+              onClick={() => setShowProjectsModal(false)}
+              style={{
+                position: "absolute",
+                top: "16px",
+                right: "16px",
+                background: "none",
+                border: "none",
+                color: "rgba(255,255,255,0.4)",
+                cursor: "pointer",
+                fontSize: "20px",
+                transition: "color 0.2s"
+              }}
+              onMouseOver={(e) => e.currentTarget.style.color = "#ff0055"}
+              onMouseOut={(e) => e.currentTarget.style.color = "rgba(255,255,255,0.4)"}
+            >
+              ✕
+            </button>
+
+            {/* Header */}
+            <div style={{ marginBottom: "20px" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
+                <span style={{ fontSize: "22px" }}>🚀</span>
+                <h3 style={{ fontSize: "18px", fontWeight: 800, background: "linear-gradient(90deg, #00f0ff, #ff0055)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                  SeatCracker Ecosystem
+                </h3>
+              </div>
+              <p style={{ fontSize: "12px", color: "#94a3b8", lineHeight: "1.4" }}>
+                Explore companion utilities designed to boost your academic productivity and focus.
+              </p>
+            </div>
+
+            {/* Project List */}
+            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+              {/* SDES V3 Focus Engine Card */}
+              <Link 
+                href="/our-products/sdes"
+                onClick={() => setShowProjectsModal(false)}
+                style={{
+                  display: "block",
+                  textDecoration: "none",
+                  background: "rgba(255,255,255,0.02)",
+                  border: "1px solid rgba(255,255,255,0.06)",
+                  borderRadius: "14px",
+                  padding: "16px",
+                  transition: "all 0.3s ease",
+                  cursor: "pointer"
+                }}
+                onMouseOver={(e) => {
+                  e.currentTarget.style.borderColor = "rgba(0, 240, 255, 0.4)";
+                  e.currentTarget.style.background = "rgba(0, 240, 255, 0.02)";
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.borderColor = "rgba(255,255,255,0.06)";
+                  e.currentTarget.style.background = "rgba(255,255,255,0.02)";
+                }}
+              >
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "8px" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                    <span style={{ fontSize: "20px" }}>🛡️</span>
+                    <span style={{ fontWeight: 700, fontSize: "15px", color: "#fff" }}>SDES V3 Focus Engine</span>
+                  </div>
+                  <span style={{ fontSize: "10px", background: "rgba(0, 240, 255, 0.15)", color: "#00f0ff", padding: "2px 8px", borderRadius: "100px", fontWeight: 700, textTransform: "uppercase" }}>
+                    Focus Block
+                  </span>
+                </div>
+                
+                <p style={{ fontSize: "12px", color: "#94a3b8", margin: "0 0 12px", lineHeight: "1.4" }}>
+                  A strict system-level discipline enforcement engine engineered to eliminate digital distractions, block sites, and force absolute focus.
+                </p>
+
+                <div style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "flex-end",
+                  gap: "6px",
+                  fontSize: "12px",
+                  fontWeight: 700,
+                  color: "#00f0ff"
+                }}>
+                  <span>Explore Product</span>
+                  <span>→</span>
+                </div>
+              </Link>
+              
+              {/* SeatCracker Main Platform */}
+              <div style={{
+                background: "rgba(255,255,255,0.01)",
+                border: "1px solid rgba(255,255,255,0.04)",
+                borderRadius: "14px",
+                padding: "14px",
+                opacity: 0.8
+              }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "4px" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                    <span style={{ fontSize: "18px" }}>🎓</span>
+                    <span style={{ fontWeight: 600, fontSize: "14px", color: "rgba(255,255,255,0.8)" }}>SeatCracker Test Series</span>
+                  </div>
+                  <span style={{ fontSize: "9px", background: "rgba(255,255,255,0.05)", color: "rgba(255,255,255,0.5)", padding: "1px 6px", borderRadius: "100px", fontWeight: 700 }}>
+                    Active
+                  </span>
+                </div>
+                <p style={{ fontSize: "11px", color: "#64748b", margin: 0 }}>
+                  Smart preparation platform with topic practice, analytical dashboard, and simulated mocks.
+                </p>
+              </div>
+            </div>
+
+            <div style={{ marginTop: "20px", display: "flex", justifyContent: "flex-end" }}>
+              <button 
+                onClick={() => setShowProjectsModal(false)}
+                style={{
+                  background: "rgba(255, 255, 255, 0.05)",
+                  border: "1px solid rgba(255, 255, 255, 0.1)",
+                  borderRadius: "8px",
+                  color: "#f8fafc",
+                  padding: "8px 16px",
+                  fontSize: "12px",
+                  fontWeight: 600,
+                  cursor: "pointer"
+                }}
+              >
+                Close
+              </button>
+            </div>
+
+          </div>
+        </div>
+      )}
     </div>
   );
 }

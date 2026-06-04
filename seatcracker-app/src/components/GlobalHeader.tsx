@@ -312,6 +312,28 @@ export default function GlobalHeader() {
               </button>
             )}
 
+            <div style={{ height: "1px", background: "var(--border)", margin: "8px 0" }} />
+            
+            <h4 style={{ fontSize: "11px", color: "var(--text-muted, #64748b)", fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.1em", paddingLeft: "4px", margin: "4px 0" }}>
+              Our Products
+            </h4>
+
+            <Link 
+              href="/our-products/sdes" 
+              onClick={closeMenu}
+              style={{
+                display: "flex", alignItems: "center", gap: "12px",
+                padding: "16px", borderRadius: "12px", color: "var(--text)",
+                textDecoration: "none", fontSize: "16px", fontWeight: 600,
+                background: "var(--bg-card)", border: "1px solid var(--border)",
+                transition: "all 0.2s"
+              }}
+            >
+              <span>🛡️</span> SDES Focus Engine
+            </Link>
+
+            <div style={{ height: "1px", background: "var(--border)", margin: "8px 0" }} />
+
             <Link 
               href="/performance" 
               onClick={closeMenu}
