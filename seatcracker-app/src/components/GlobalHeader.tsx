@@ -41,9 +41,8 @@ export default function GlobalHeader() {
       const eamcetPhase = localStorage.getItem("sc_battle_phase");
       
       const isIntroStep = pathname === "/" && (step < 6 || step === -1);
-      const isJeeActiveExam = pathname.includes("/jee-advanced/mock-test") && jeePhase === "exam";
-
-      const isPathHidden = hidePaths.includes(pathname);
+      const isJeeActiveExam = pathname?.includes("/jee-advanced/mock-test") && jeePhase === "exam";
+      const isPathHidden = pathname ? hidePaths.includes(pathname) : false;
 
       setHideForStep(isIntroStep || isJeeActiveExam || isPathHidden);
     };
