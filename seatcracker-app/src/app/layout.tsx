@@ -32,6 +32,7 @@ import CookieBanner from "../components/CookieBanner";
 import GlobalFooter from "../components/GlobalFooter";
 import PolicyGuard from "../components/PolicyGuard";
 import PresenceTracker from "../components/PresenceTracker";
+import SeatCrackerChatbot from "../components/SeatCrackerChatbot";
 
 export default function RootLayout({
   children,
@@ -68,32 +69,7 @@ export default function RootLayout({
               -webkit-text-fill-color: #000000 !important;
             }
           `}} />
-          {/* n8n Chatbot CSS */}
-          <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
-
-          {/* n8n Chatbot Script */}
-          <script 
-            type="module" 
-            dangerouslySetInnerHTML={{
-              __html: `
-                import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
-                
-                createChat({
-                  webhookUrl: 'https://valtoooy.app.n8n.cloud/webhook/63947dc1-8cee-4b53-a31b-c88e09220e5b/chat',
-                  initialMessages: [
-                    'Hi there! 👋',
-                    'My name is Seater. How can I assist you with your exam prep today?'
-                  ],
-                  showWelcomeScreen: true,
-                  mode: 'window', 
-                  theme: {
-                    primaryColor: '#0070f3',
-                    fontFamily: 'Inter, sans-serif'
-                  }
-                });
-              `
-            }} 
-          />
+          <SeatCrackerChatbot />
         </ThemeProvider>
       </body>
     </html>
