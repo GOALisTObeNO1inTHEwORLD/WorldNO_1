@@ -53,11 +53,21 @@ export default function RootLayout({
           <GlobalFooter />
           {/* Custom CSS to fix invisible text */}
           <style dangerouslySetInnerHTML={{__html: `
-            .chat-message-input {
+            .chat-message-input,
+            .chat-message-input textarea,
+            .chat-message-input input,
+            .chat-input,
+            .chat-input textarea,
+            .n8n-chat textarea,
+            .n8n-chat input,
+            .n8n-chat-input,
+            .chat-window textarea,
+            .chat-window input {
               color: #000000 !important;
+              caret-color: #000000 !important;
+              -webkit-text-fill-color: #000000 !important;
             }
           `}} />
-
           {/* n8n Chatbot CSS */}
           <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
 
