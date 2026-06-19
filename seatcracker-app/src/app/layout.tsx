@@ -51,6 +51,33 @@ export default function RootLayout({
           </main>
           <CookieBanner />
           <GlobalFooter />
+          {/* n8n Chatbot CSS */}
+          <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+
+          {/* n8n Chatbot Script */}
+          <script 
+            type="module" 
+            dangerouslySetInnerHTML={{
+              __html: `
+                import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+                
+                createChat({
+                  webhookUrl: 'https://valtoooy.app.n8n.cloud/webhook/63947dc1-8cee-4b53-a31b-c88e09220e5b/chat',
+                  initialMessages: [
+                    'Hi there! 👋',
+                    'My name is Seater. How can I assist you with your exam prep today?'
+                  ],
+                  showWelcomeScreen: true,
+                  // This mode sets the chat as a floating widget on the bottom right
+                  mode: 'window', 
+                  theme: {
+                    primaryColor: '#0070f3', // A clean blue color matching SeatCracker. Change the hex code if needed.
+                    fontFamily: 'Inter, sans-serif'
+                  }
+                });
+              `
+            }} 
+          />
         </ThemeProvider>
       </body>
     </html>
