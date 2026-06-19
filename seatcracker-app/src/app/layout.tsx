@@ -51,6 +51,13 @@ export default function RootLayout({
           </main>
           <CookieBanner />
           <GlobalFooter />
+          {/* Custom CSS to fix invisible text */}
+          <style dangerouslySetInnerHTML={{__html: `
+            .chat-message-input {
+              color: #000000 !important;
+            }
+          `}} />
+
           {/* n8n Chatbot CSS */}
           <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
 
@@ -68,10 +75,9 @@ export default function RootLayout({
                     'My name is Seater. How can I assist you with your exam prep today?'
                   ],
                   showWelcomeScreen: true,
-                  // This mode sets the chat as a floating widget on the bottom right
                   mode: 'window', 
                   theme: {
-                    primaryColor: '#0070f3', // A clean blue color matching SeatCracker. Change the hex code if needed.
+                    primaryColor: '#0070f3',
                     fontFamily: 'Inter, sans-serif'
                   }
                 });
